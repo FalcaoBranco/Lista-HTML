@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Texto ao Lado de um Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Formulario</h1>
+        <form>
+            <label for="info">Informações:</label>
+            <input type="text" id="info" name="info" required>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="opcoes">Opções:</label>
+            <ul>
+                <li>
+                    <input type="checkbox" id="opcao1" name="opcao1">
+                    <label for="opcao1">Opção 1</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="opcao2" name="opcao2">
+                    <label for="opcao2">Opção 2</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="opcao3" name="opcao3">
+                    <label for="opcao3">Opção 3</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="opcao4" name="opcao4">
+                    <label for="opcao4">Opção 4</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="opcao5" name="opcao5">
+                    <label for="opcao5">Opção 5</label>
+                </li>
+            </ul>
+
+            <label for="escolha">Escolha uma opção:</label>
+            <ul>
+                <li>
+                    <input type="radio" id="opcaoA" name="escolha" value="A" required>
+                    <label for="opcaoA">Opção A</label>
+                </li>
+                <li>
+                    <input type="radio" id="opcaoB" name="escolha" value="B" required>
+                    <label for="opcaoB">Opção B</label>
+                </li>
+            </ul>
+
+            <label for="observacoes">Observações:</label>
+            <textarea id="observacoes" name="observacoes" rows="4"></textarea>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </form>
+
+        <div class="texto-lateral">
+
+        </div>
+    </div>
+
+</body>
+</html>

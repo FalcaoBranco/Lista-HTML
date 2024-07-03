@@ -1,0 +1,11 @@
+.parte-superior{
+    list-style: none;
+    display: flex;
+    color: black;
+    background-color:white;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}

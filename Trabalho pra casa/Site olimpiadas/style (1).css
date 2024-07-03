@@ -1,0 +1,81 @@
+body{
+    background-color: bisque;
+}
+h1{
+    text-align: center;
+}
+
+#cor-fundo-volei{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+#tabela-volei{
+    color: aqua;
+}
+
+#tabela-volei tr:hover{
+    background-color: black;
+    cursor:pointer ;
+}
+
+#cor-fundo-basquete{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 20px;
+    
+}
+
+#tabela-basquete{
+    color: yellow;
+}
+
+#tabela-basquete tr:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+#cor-fundo-tiro{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+
+#tabela-tiro tr:hover{
+    background-color: blueviolet;
+}
+
+figure {
+    overflow: hidden; /* Esconde uma parte da imagem ao ultrapassar o limite pelo zoom.*/
+}
+
+figure #imagem-tiro {
+    width: 300px;
+    height: 300px;
+    transform: scale(1);
+    transition: .3s ease-in-out;
+    
+}
+
+figure #imagem-tiro:hover{
+    transform: scale(1.3); 
+    cursor: pointer;
+    
+}
+
+.cor-text-tiro{
+    color: white;
+    
+}
+
